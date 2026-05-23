@@ -14,7 +14,7 @@ console.log(str);
 // strings are immutable but they can reassign in this no operation in which we take substring and remove from that string like in splice in array
 // slice taking input form include start and exclude end if neg come take from end 
 // if end is more than start no output empty string if 2nd para not given then take last char of string 
-let name = "   rohit pasale   ";
+let name = " rohit pasale";
 // ** slice
 console.log(name,name.slice(0,8));
 console.log(name,name.slice(-4,-2));
