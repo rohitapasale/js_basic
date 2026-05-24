@@ -13,6 +13,15 @@ console.log(nums);
 // ** slice => give from start to end array if -ve then take from end not change in original 
 const nums1 = nums.slice(0,4);
 console.log(nums,nums1);
+// splice remove and add then 
 const nums2 = nums.splice(0,2);
 console.log(nums,nums2);
-
+// use ... spread operator 
+const arr1 = [10,20,30];
+const arr2 = arr1;
+arr2[1]=2000;
+// here both pointing to same and values of both changed 
+console.log(arr1,arr2);
+const arr3 = [...arr1];
+arr3[0]=20000;
+console.log(arr1,arr3);
